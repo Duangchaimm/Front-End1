@@ -10,6 +10,7 @@ const path = require("path")
 //const base_url = "https://api.example.com";
 const base_url = "http://node58157-env-5982902.proen.app.ruk-com.cloud";
 //const base_url = "http://node41091-noderest.proen.app.ruk-com.cloud";
+//const base_url = "http://localhost:3000";
 
 // Set the template engine
 app.set("views", path.join(__dirname, "/public/views"));
@@ -88,5 +89,5 @@ app.get("/delete/:id", async (req, res) => {
 });
 
 app.listen(5500, () => {
-  console.log('Server started on post 5600');
+  console.log('Server started on post 5500');
 });
